@@ -1,7 +1,4 @@
-/// <reference path="../typings/angularjs/angular.d.ts"/>
-/// <reference path="../typings/angularjs/angular-animate.d.ts"/>
-/// <reference path="../typings/angular-ui-router/angular-ui-router.d.ts"/>
-/// <reference path="../typings/jquery/jquery.d.ts"/>
+/// <reference path="../typings/tsd.d.ts"/>
 
 declare var app: angular.IModule;
 declare module 'app' {
@@ -15,6 +12,7 @@ interface lazyApp {
   filter(name:string, cb:()=>any);
   controller(name:string, cb:()=>any);
 }
+
 declare var lazy: lazyApp;
 declare module 'lazy' {
   export = lazy;

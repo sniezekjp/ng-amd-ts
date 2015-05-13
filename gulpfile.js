@@ -6,7 +6,7 @@ var newer = require('gulp-newer');
 var tsFiles = ['src/**/*.ts', '!src/vendor/**'];
 gulp.task('default', ['copy'], function(){
   gulp.src(tsFiles)
-    .pipe(tsc({ emitError: false, module: 'amd' }))
+    .pipe(tsc({ emitError: false, module: 'amd', target:'ES5' }))
     .pipe(gulp.dest('dist'));
 });
 
