@@ -16,6 +16,18 @@
     },
     "angularjs/angular.d.ts": {
       "commit": "846a250e0a6f5e6adf6347ee4ca442a9d1abd8fc"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "846a250e0a6f5e6adf6347ee4ca442a9d1abd8fc"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "d4ffb7e9f8bc8e9a4d21fe63e467ffb304528f91"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "d4ffb7e9f8bc8e9a4d21fe63e467ffb304528f91"
+    },
+    "requirejs/require.d.ts": {
+      "commit": "d4ffb7e9f8bc8e9a4d21fe63e467ffb304528f91"
     }
   }
 }

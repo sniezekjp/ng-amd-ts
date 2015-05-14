@@ -17,5 +17,3 @@ declare var lazy: lazyApp;
 declare module 'lazy' {
   export = lazy;
 }
-
-declare var require;

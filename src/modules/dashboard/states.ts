@@ -5,8 +5,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
   
   $stateProvider.state('dash', {
     url: '/',
-    controller: 'DashController',
-    template: '<a ui-sref="other">Other</a>',
+    controller: 'DashController as dash',
+    template: '<a ui-sref="other">Other</a><br><pre>{{dash.q|json}}</pre>',
     resolve: {
       _lazy: function(Lazy) {
         return Lazy.load('modules/dashboard/controllers/DashController');

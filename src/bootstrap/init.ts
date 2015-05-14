@@ -1,7 +1,11 @@
 /// <reference path="../app.d.ts"/>
-/// <amd-dependency path="lazy"/>
-/// <amd-dependency path="animate"/>
-/// <amd-dependency path="modules/dashboard/states"/>
+
+import 'lazy';
+import 'animate';
+import 'resource';
+import 'lib/classes/Q';
+import 'lib/classes/API';
+import 'modules/dashboard/states';
 
 import $ = require('jquery');
 import angular = require('angular');
